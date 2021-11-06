@@ -19,6 +19,8 @@ Then execute this to downlad and extract the latest version and place it in /bin
 
     ./build.sh
 
-## download the final caddy build with plugins
+## download and install the final caddy build with plugins
 
-    wget 
+    wget https://github.com/elestio/caddy-full/raw/main/bin/caddy
+    chmod +x caddy
+    mv caddy /bin/caddy
