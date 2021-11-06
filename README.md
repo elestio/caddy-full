@@ -23,4 +23,8 @@ Then execute this to downlad and extract the latest version and place it in /bin
 
     wget https://github.com/elestio/caddy-full/raw/main/bin/caddy
     chmod +x caddy
-    mv caddy /bin/caddy
+    mv caddy /usr/bin/caddy
+
+## restart caddy to apply
+
+    service caddy restart
